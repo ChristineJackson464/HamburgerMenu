@@ -1,0 +1,237 @@
+.Facts {
+    border: 2px solid green;
+    background-color: transparent;
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    position: relative;
+    border-radius: 7px;
+}
+
+.stats {
+    color: #75595d;
+    font-size: 6.5rem;
+    text-shadow: 0px 3px 0px rgb(117, 89, 93),
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+
+.intro {
+    border: 1px dotted yellow;
+    color:rgb(117, 89, 93);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+#profPic {
+    border-radius: 20%;
+    box-shadow: 0 10px 10px 10px rgba(37, 61, 91, 0.2);
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+}
+
+.hobby {
+    
+}
+
+#lakeLife {
+    position: absolute;
+    top: 170px;
+    right: 150px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.loves (FORMERLY aside) {  
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.loves (FORMERLY aside) h3 {
+    color: #75595d;
+    font-size: 2.5rem;border-radius: 10px;position: absolute;
+    height: 300px;
+    width: auto;
+    top: 500px;
+    right: 250px;
+    }
+
+.loves (FORMERLY aside) p {
+    font-family: 'Dosis', sans-serif;
+    color: #75595d;
+    font-size: 2rem;
+    width: 80vw;
+    position: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}    
+
+.loves (FORMERLY aside) #madeinKY {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+}
+
+.loves (FORMERLY aside) #pup {
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+}
+
+.loves (FORMERLY aside) #love {
+    border: 1px dotted red;
+    height: 200px;
+    width: 200px;
+}
+
+.loves (FORMERLY aside) .Moo {
+    border:1px dotted blue;
+    height: 200px;
+    width: 200px;
+}
+
+#bud {
+    border: 1px dotted greenyellow;
+    height: 200px;
+    width: 200px;
+}
+
+.loves (FORMERLY aside) .BudTesla {
+    border: 1px dotted orange;
+    height: 200px;
+    width: 200px;
+}
+
+.loves (FORMERLY aside) #mom {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+#sis {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+}
+
+#hat {
+    border:5px dotted blue;
+    height: 200px;
+    width: 200px;
+}
+
+#cc {
+    position: relative;
+    margin: 50px;
+    padding: 30px;
+}
+
+#laptop {
+    border:1px dotted green;
+    height: 200px;
+    width: 200px;
+}
+
+#cc h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+}
+
+.p1 {
+    background-color: rgba(117, 89, 93, 0.4);
+    border-radius: 10px;
+    color:#253d5b;
+    padding: 20px;
+    top: 0;
+    width: 55%;
+}
+
+.p1 img {
+    position: absolute;
+    height: 275px;
+    top: 60px;
+    right: 100px;
+    opacity: 0.85;
+    border-radius: 45%;
+    box-shadow: 0 10px 10px 10px rgba(117, 89, 93, 0.2);
+}
+
+.KY {
+    background-color: #fff;
+    height: 300px;
+    width: 70vw;
+    border-radius: 30px;
+    border-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:space-around;
+    position: relative;
+    top: 75px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(117, 89, 93, 0.2);
+    filter: brightness(75%);
+    color: #253d5b;
+}
+
+#KY {
+    border: 1px solid chartreuse;
+    height: 300px;
+    width: 300px;
+}
+
+.KY article {
+    position: absolute;
+    top: 0;
+}
+
+/* SECTION #2 */
+.more {
+    margin: 5px 0 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    top: 20px;
+    width: 95vw;
+}
+
+.more h3 {
+    position: relative;
+    font-size: 2.5rem;
+    top: -12px;
+    left: 160px;
+    color: #253d5b;
+}
+
+#more-text {
+    position: absolute;
+    padding-top: 70px;
+    top: 100px;
+    left: 150px;
+    color: #253d5b;
+}
+
+#screen {
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px 10px rgba(37, 61, 91, 0.2);
+    top: 30px;
+    right: 100px;
+    height: 300px;
+}

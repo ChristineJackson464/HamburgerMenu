@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(
+    rgba(239, 240, 237, 0.3), 
+    rgba(239, 240, 237, 0.5)
+    ),
+    url(images/CJWebDevlogo.svg) fixed center
+    no-repeat;
+    background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.hamburger-menu {
+  background-color: #75595d;
+  height: 55px;
+  width: 55px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+  transition: all 0.5s;
+}
+
+.change .hamburger-menu {
+  background-color: #eff0ed;
+}
+
+.line {
+  background-color: rgb(239, 240, 237);
+  height: 2px;
+  width: 30px;
+  margin: 2px 0;
+  transform-origin: right;
+  transition: all 0.5s;
+}
+
+.change .line1 {
+  background-color: #75595d;
+  transform:rotate(-40deg) translateY(-5px);
+}
+
+.change .line2 {
+  opacity: 0;;
+}
+
+.change .line3 {
+  background-color: #75595d;
+  transform:rotate(40deg) translateY(5px);
+}
+
+.bg-cover {
+  background-color: rgba(117, 89, 93, 0.9);
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  top: 35px;
+  right: 35px;
+  z-index: 100;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+
+.change .bg-cover {
+  transform: scale(150);
+}
+
+.nav-list {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 200;
+  transition: opacity 1s;
+}
+
+.change .nav-list {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-item {
+  margin: 1.5vh 0;
+}
+
+.nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #eff0ed;
+  transition: letter-spacing 0.3s;
+}
+
+.nav-link:hover {
+  letter-spacing: 0.8r;
+}
+
